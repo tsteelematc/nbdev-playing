@@ -5,4 +5,4 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://tsteelematc.github.io',
                 'git_url': 'https://github.com/tsteelematc/nbdev-playing',
                 'lib_path': 'nbdev_playing'},
-  'syms': {'nbdev_playing.core': {'nbdev_playing.core.foo': ('core.html#foo', 'nbdev_playing/core.py')}}}
+  'syms': {'nbdev_playing.core': {'nbdev_playing.core.say_hello': ('core.html#say_hello', 'nbdev_playing/core.py')}}}
