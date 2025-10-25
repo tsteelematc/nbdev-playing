@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev-playing"
+  site-url: "https://tsteelematc.github.io/nbdev-playing"
+  description: "Literate programming exploration with nbdev"
+  repo-branch: main
+  repo-url: "https://github.com/tsteelematc/nbdev-playing"
