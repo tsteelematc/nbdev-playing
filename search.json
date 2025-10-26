@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "filter.html#my-typical-examples",
+    "href": "filter.html#my-typical-examples",
+    "title": "filter()",
+    "section": "My typical examples…",
+    "text": "My typical examples…\n\ngrades = [\n    70, \n    55.5, \n    85\n]\n\n\npassing_grades = filter(\n    lambda x: x &gt;= 70, \n    grades,\n)\n\n\nprint(\n    passing_grades\n)\n\n&lt;filter object&gt;\n\n\nOops, those don’t look like grades : - O\n\nprint(\n    list(\n        passing_grades\n    )\n)\n\n[70, 85]\n\n\ntsteelematc: How about a cell that creates passing_grades_02 using a list comprehension\nGitHub Copilot: I’ll add a new cell that creates passing_grades_02 using a list comprehension to filter the grades.\nEdit \nI’ve added a new cell after the last one that creates passing_grades_02 using a list comprehension. This cell:\n\nUses list comprehension syntax [grade for grade in grades if grade &gt;= 70] to filter grades that are 70 or above\nStores the result in passing_grades_02\nPrints the result to show the filtered grades\n\nThe list comprehension is a more Pythonic and concise way to filter a list compared to using the filter() function, and it directly returns a list rather than a filter object.\nMade changes.\n\npassing_grades_02 = [grade for grade in grades if grade &gt;= 70]\nprint(passing_grades_02)\n\n[70, 85]\n\n\n\nidiot-or-genius\nBut I like the way I can copy/paste Copilot MD into a notebook…\n“modern” literate programming by Tom Steele : - )",
+    "crumbs": [
+      "filter()"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-playing",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "nbdev-playing"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "nbdev-playing",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall nbdev_playing in Development mode\n# make sure nbdev_playing package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to nbdev_playing\n$ nbdev_prepare",
+    "crumbs": [
+      "nbdev-playing"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "nbdev-playing",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/tsteelematc/nbdev-playing.git\nor from conda\n$ conda install -c tsteelematc nbdev_playing\nor from pypi\n$ pip install nbdev_playing\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "nbdev-playing"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-playing",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "nbdev-playing"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nsay_hello\n\n say_hello (name:str)\n\nReturns: ’Hello [name]\n\n# Example\nsay_hello(\"nbdev\")\n\n'Hello nbdev'\n\n\n\n# Example test\nassert say_hello(\"foo\") == \"Hello foo\"",
+    "crumbs": [
+      "core"
+    ]
+  }
+]
